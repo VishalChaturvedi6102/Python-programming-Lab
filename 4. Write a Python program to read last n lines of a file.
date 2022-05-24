@@ -1,0 +1,7 @@
+with open("Practice.txt", "r") as f:
+    Rev_File = f.readlines()
+    Rev_File = Rev_File[::-1]
+
+n = int(input('Enter the nth last line: '))
+    for lastline in range(n):
+        print(Rev_File[lastline])
