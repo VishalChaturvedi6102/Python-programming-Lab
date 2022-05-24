@@ -1,0 +1,4 @@
+dic_1 = {'name': 'Vishal Chaturvedi', 'Roll no': 53, 'Marks': 29}
+
+for key, value in dic_1.items():
+    print(f'At {key} is {value}')
