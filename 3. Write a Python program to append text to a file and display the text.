@@ -1,0 +1,8 @@
+# Append a line in File
+with open("Practice.txt", "a") as f:
+    f.write('\nI am good boy')
+
+# Read whole file in python
+with open("Practice.txt", "r") as f:
+    for line in f:
+        print(line)
